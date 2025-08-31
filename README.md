@@ -6,7 +6,7 @@
 
 EchoGuardian is an AI-powered diagnostic tool designed to assist radiologists in the early detection of breast cancer. This project tackles two critical tasks: the automatic segmentation of lesions from ultrasound images and their subsequent classification as benign or malignant. The primary goal is to create a reliable pipeline that improves diagnostic accuracy and efficiency, with a strong focus on achieving high sensitivity for malignant cases.
 
-This project was developed in collaboration with [@andypalmi](https://github.com/andypalmi).
+This project was developed in collaboration with [@andypalmi](https://github.com/andypalmi) and [@andreaborghesi00](https://github.com/andreaborghesi00)
 
 ## Core Pipeline
 
