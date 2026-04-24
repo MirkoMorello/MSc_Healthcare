@@ -7,6 +7,10 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE)
 
+<p align="center">
+  <img src="docs/assets/portfolio-card.png" alt="EchoGuardian portfolio card" width="100%">
+</p>
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -23,7 +27,7 @@
 
 ## 🎯 Overview
 
-**EchoGuardian** is an advanced AI-powered diagnostic tool designed to assist radiologists in the early detection and classification of breast cancer from ultrasound images. The system implements a comprehensive two-stage pipeline that combines state-of-the-art deep learning for lesion segmentation with radiomic feature extraction and machine learning for malignancy classification.
+**EchoGuardian** is an academic prototype for breast ultrasound analysis. The system implements a two-stage pipeline that combines deep learning lesion segmentation with radiomic feature extraction and machine learning for benign/malignant classification experiments.
 
 ### Clinical Objectives
 
@@ -44,7 +48,7 @@ EchoGuardian is designed as a **Class IIa Medical Device** following EU MDR regu
 ## ✨ Key Features
 
 ### 🔬 Advanced Segmentation
-- Multiple state-of-the-art architectures (DeepLabV3+, UNet++)
+- Multiple segmentation architectures (DeepLabV3+, UNet++)
 - Pre-trained encoders (ResNet34, ResNet50, Xception65)
 - Robust data augmentation pipeline
 - Real-time inference (<1 second response time)
@@ -255,9 +259,9 @@ The classification stage uses radiomic features extracted from segmented lesions
 - Loss: Binary Cross-Entropy
 - Training time: ~5 minutes for 100 epochs
 
-### Clinical Validation
+### Prototype Validation
 
-The system exceeds clinical requirements:
+The experimental prototype meets the course targets on the held-out evaluation split:
 - ✅ **Sensitivity:** 94.2% (target: >90%) - Minimal false negatives for cancer detection
 - ✅ **AUC:** 0.91 (target: >0.85) - Excellent discriminative ability
 - ✅ **Response Time:** <1 second (target: <1 second for live demonstration)
