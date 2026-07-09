@@ -3,9 +3,8 @@
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C.svg?logo=pytorch)
 
-Coursework for a healthcare signal- and image-processing course, built
-around the BUSI breast-ultrasound dataset. The main project is a two-stage
-pipeline: a U-Net segments the lesion from the ultrasound image, radiomic
+A project built around the BUSI breast-ultrasound dataset: a two-stage
+pipeline where a U-Net segments the lesion from the ultrasound image, radiomic
 features (GLCM texture, shape, first-order statistics via PyRadiomics) are
 extracted from the segmented region, and a classifier labels the lesion
 benign or malignant. A Dash web GUI lets a user drop in an image, draw or
