@@ -261,7 +261,7 @@ icon_base64 = f"data:image/png;base64,{encoded_string}"
 main_layout = dbc.Container([
     dbc.Row([
         dbc.Col([
-            html.H1("EchoGuardian", className="display-4 text-center mb-4", style={"font-weight": "bold"})
+            html.H1("Breast Ultrasound Analysis", className="display-4 text-center mb-4", style={"font-weight": "bold"})
         ], width=12)
     ], justify="center", className="text-center"),
     dbc.Row([
